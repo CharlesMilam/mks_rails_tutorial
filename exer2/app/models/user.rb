@@ -1,3 +1,4 @@
 class User < ActiveRecord::Base
-  has_many :cohorts, :through => :membership
+  has_many :memberships
+  has_many :cohorts, :through => :memberships
 end
