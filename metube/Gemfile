@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem "pry-byebug"
 # Use hirb for pretty table printing in rails console
 gem "hirb"
+# User rspec-rails for testing
+gem "rspec-rails"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
